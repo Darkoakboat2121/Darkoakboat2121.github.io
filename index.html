@@ -1,0 +1,101 @@
+</header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Wiki</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f8f9fa;
+            color: #222;
+        }
+        .header {
+            background: #2a4d7c;
+            color: #fff;
+            padding: 1rem 2rem;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            min-height: 90vh;
+        }
+        .sidebar {
+            background: #e9ecef;
+            width: 220px;
+            padding: 2rem 1rem;
+            box-sizing: border-box;
+        }
+        .sidebar h2 {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar li {
+            margin-bottom: 0.7rem;
+        }
+        .sidebar a {
+            color: #2a4d7c;
+            text-decoration: none;
+        }
+        .sidebar a:hover {
+            text-decoration: underline;
+        }
+        .main {
+            flex: 1;
+            padding: 2rem;
+            background: #fff;
+            box-shadow: 0 0 8px #ddd;
+        }
+        .article-title {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        .article-meta {
+            color: #888;
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+        }
+        .article-content {
+            line-height: 1.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Simple Wiki</div>
+    <div class="container">
+        <nav class="sidebar">
+            <h2>Articles</h2>
+            <ul>
+                <li><a href="#article1">Sample Article</a></li>
+                <li><a href="#article2">Another Topic</a></li>
+            </ul>
+        </nav>
+        <main class="main">
+            <div id="article1">
+                <div class="article-title">Sample Article</div>
+                <div class="article-meta">Last edited: October 7, 2025</div>
+                <div class="article-content">
+                    <p>This is a sample article for your Wikipedia-style site. You can add more articles, edit content, and expand your wiki as needed.</p>
+                    <h3>Section Heading</h3>
+                    <p>Wikipedia is a free online encyclopedia, created and edited by volunteers around the world. Your site can work similarly, with articles, navigation, and a clean layout.</p>
+                </div>
+            </div>
+            <div id="article2">
+                <div class="article-title">Another Topic</div>
+                <div class="article-meta">Last edited: October 7, 2025</div>
+                <div class="article-content">
+                    <p>This is another example article. You can link to more topics in the sidebar and add content here.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
+</header>
